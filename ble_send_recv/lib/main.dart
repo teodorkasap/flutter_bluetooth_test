@@ -10,10 +10,13 @@ import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:ble_send_recv/widgets.dart';
 
 void main() {
-  runApp(FlutterBlueApp());
+  runApp(const FlutterBlueApp());
 }
 
 class FlutterBlueApp extends StatelessWidget {
+
+  const FlutterBlueApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
